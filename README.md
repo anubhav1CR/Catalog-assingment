@@ -10,8 +10,6 @@ This project implements a simplified version of Shamir's Secret Sharing algorith
 - [Installation](#installation)
 - [Usage](#usage)
 - [How to Run the Code](#how-to-run-the-code)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -31,3 +29,15 @@ The program consists of the following main components:
 1. Clone this repository to your local machine using:
    ```bash
    git clone <repository-url>
+
+## Usage
+1. The json file for both the testcases are already given.
+2. Change the filepath of the json files according to the needs
+
+## How to Run the Code
+1. Open a terminal or command prompt.
+2. Navigate to the directory where your code file (e.g., assignment.py) and the data.json file are located.
+3. Run the script using Python:
+   ```bash
+   python assignment.py
+The program will read the JSON file, decode the values, and output the secret term 𝑐
